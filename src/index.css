@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./images/calculatorbackground.jpg");
+  background-position: auto;
+  padding-top: 5%;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.containertwo {
+  display: flex;
+  justify-content: center;
+}
+
+.containerthree {
+  display: flex;
+  justify-content: center;
+  padding: 4%;
+}
+
+.containerfour {
+  display: flex;
+  justify-content: center;
+}
+
+.containerfive {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.App {
+  margin: auto;
+  height: auto;
+}
+
+p {
+  font-size: 50px;
+}
+
+h1 {
+  font-size: 35px;
 }
