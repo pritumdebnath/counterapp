@@ -1,5 +1,3 @@
-
-import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 import Increment from './components/Increment';
 import Decrement from './components/Decrement';
