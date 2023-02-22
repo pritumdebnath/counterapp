@@ -22,7 +22,7 @@ class StartNum extends Component {
     render(){
         return(
             <form onSubmit={this.handleSubmit}>
-                <input type="text" onChange={this.handleChange} value={this.state.count} />
+                <input type="text" onChange={this.handleChange} value={this.state.count} className="css-input" />
                 <button className="myButton">Input</button>
             </form>
         )
