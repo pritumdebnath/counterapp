@@ -5,7 +5,7 @@ const Reset = (props) => {
 
     return(
         <div>
-            <button onClick={reset}>Reset</button>
+            <button onClick={reset} className="myButton">Reset</button>
         </div>
     )
 }

@@ -5,7 +5,7 @@ const Decrement = (props) => {
 
     return(
         <div>
-            <button onClick = {decrementDown}>Minus One</button>
+            <button onClick = {decrementDown} className="myButton">Minus One</button>
         </div>
     )
 }
